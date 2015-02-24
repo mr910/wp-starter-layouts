@@ -11,8 +11,6 @@ get_header(); ?>
 
 	<div id="content" class="medium-8 large-8 columns" role="main">
 
-    	<?php if ( function_exists( 'yoast_breadcrumb' ) ) { yoast_breadcrumb( '<p class="breadcrumbs">', '</p>' ); } ?>
-
 <?php
 the_ddlayout( 'default-layout' );
 ?>
